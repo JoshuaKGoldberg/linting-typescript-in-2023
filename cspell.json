@@ -1,0 +1,5 @@
+{
+	"dictionaries": ["typescript"],
+	"ignorePaths": [".github", "dist", "node_modules"],
+	"words": ["commitlint", "uppercase", "uppercased"]
+}

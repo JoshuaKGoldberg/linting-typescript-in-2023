@@ -1,0 +1,59 @@
+{
+	"author": "Josh Goldberg <npm@joshuakgoldberg.com>",
+	"dependencies": {
+		"next": "13.0.0",
+		"react": "18.2.0",
+		"react-dom": "18.2.0"
+	},
+	"description": "Template TypeScript Node.js package with all the CI bells & whistles I commonly use. ✨",
+	"devDependencies": {
+		"@types/node": "18.11.18",
+		"@types/react": "^18.0.24",
+		"@typescript-eslint/eslint-plugin": "^5.38.1",
+		"@typescript-eslint/parser": "^5.38.1",
+		"cspell": "^6.12.0",
+		"eslint": "^8.24.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-expect-type": "^0.2.0",
+		"eslint-plugin-jsonc": "^2.4.0",
+		"eslint-plugin-simple-import-sort": "^8.0.0",
+		"eslint-plugin-typescript-sort-keys": "^2.1.0",
+		"husky": ">=6",
+		"jsonc-eslint-parser": "^2.1.0",
+		"lint-staged": ">=10",
+		"markdownlint-cli": "^0.32.2",
+		"npm-package-json-lint": "^6.3.0",
+		"npm-package-json-lint-config-default": "^5.0.0",
+		"prettier": "^2.7.1",
+		"ts-prune": "^0.10.3",
+		"tsx": "^3.12.2",
+		"typescript": "^4.8.4"
+	},
+	"license": "MIT",
+	"lint-staged": {
+		"*": "prettier --ignore-unknown --write"
+	},
+	"main": "./dist/index.js",
+	"name": "floating-and-sinking-promises",
+	"scripts": {
+		"build": "next build",
+		"compile": "tsc",
+		"dev": "next dev",
+		"format": "prettier \"**/*\" --ignore-unknown",
+		"format:write": "yarn format --write",
+		"lint": "npx eslint . --max-warnings 0 --report-unused-disable-directives",
+		"lint:md": "npx markdownlint \"**/*.md\" \".github/**/*.md\"",
+		"lint:package": "npmPkgJsonLint .",
+		"lint:prune": "ts-prune",
+		"lint:spelling": "cspell \"**\" \".github/**/*\"",
+		"prepare": "husky install",
+		"script:1-callback-hell": "node script/1-callback-hell.js",
+		"script:1-callback-hell:debug": "node --inspect-brk script/1-callback-hell.js",
+		"script:2-raw-promises": "node script/2-raw-promises.js",
+		"script:2-raw-promises:debug": "node --inspect-brk script/2-raw-promises.js",
+		"script:3-async-await-promises": "node script/3-async-await-promises.js",
+		"script:3-async-await-promises:debug": "node --inspect-brk script/3-async-await-promises.js"
+	},
+	"type": "module",
+	"version": "1.1.2"
+}

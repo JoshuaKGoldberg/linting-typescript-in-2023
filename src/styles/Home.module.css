@@ -1,0 +1,33 @@
+.main {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+	padding: 0;
+}
+
+.contents {
+	background: white;
+	box-shadow: 0 2px 10px black;
+	border-radius: 2rem;
+	padding: 1rem 2rem;
+}
+
+.contents ol {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.contents,
+.contents button {
+	font-size: 1.5rem;
+}
+
+.title {
+	display: inline-block;
+	font-size: 4rem;
+	line-height: 1.15;
+	margin: 0 auto;
+	margin: 0;
+}

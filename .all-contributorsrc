@@ -1,0 +1,15 @@
+{
+	"commit": false,
+	"commitConvention": "angular",
+	"contributors": [],
+	"contributorsPerLine": 7,
+	"files": [
+		"README.md"
+	],
+	"imageSize": 100,
+	"projectName": "floating-and-sinking-promises",
+	"projectOwner": "JoshuaKGoldberg",
+	"repoHost": "https://github.com",
+	"repoType": "github",
+	"skipCi": true
+}

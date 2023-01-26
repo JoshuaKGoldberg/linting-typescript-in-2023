@@ -1,0 +1,4 @@
+{
+	"error": true,
+	"ignore": "next.config.js|script|src/(index|linting|pages)"
+}
