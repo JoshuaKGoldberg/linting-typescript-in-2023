@@ -25,7 +25,7 @@
 
 ## Usage
 
-First make sure you have [Node installed`](https://nodejs.org/en/download) and [Yarn installed`](https://yarnpkg.com/getting-started/install).
+First make sure you have [Node installed](https://nodejs.org/en/download) and [Yarn installed`](https://yarnpkg.com/getting-started/install).
 Then, after [forking the repo from GitHub`](https://help.github.com/articles/fork-a-repo):
 
 ```shell
