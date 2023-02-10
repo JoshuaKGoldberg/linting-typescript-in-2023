@@ -25,8 +25,8 @@
 
 ## Usage
 
-First make sure you have [Node installed](https://nodejs.org/en/download) and [Yarn installed`](https://yarnpkg.com/getting-started/install).
-Then, after [forking the repo from GitHub`](https://help.github.com/articles/fork-a-repo):
+First make sure you have [Node installed](https://nodejs.org/en/download) and [Yarn installed](https://yarnpkg.com/getting-started/install).
+Then, after [forking the repo from GitHub](https://help.github.com/articles/fork-a-repo):
 
 ```shell
 git clone https://github.com/<your-name-here>/floating-and-sinking-promises
