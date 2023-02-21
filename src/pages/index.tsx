@@ -78,7 +78,7 @@ export default function Home() {
 						</li>
 					</ol>
 					<a
-						href="https://github.com/JoshuaKGoldberg/floating-and-sinking-promises"
+						href="https://github.com/JoshuaKGoldberg/linting-typescript-in-2023"
 						rel="noreferrer"
 						target="_blank"
 					>

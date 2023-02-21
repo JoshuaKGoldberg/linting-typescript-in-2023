@@ -1,9 +1,5 @@
 module.exports = {
-	extends: [
-		"eslint:recommended",
-		"plugin:typescript-sort-keys/recommended",
-		"prettier",
-	],
+	extends: ["eslint:recommended", "plugin:typescript-sort-keys/recommended"],
 	overrides: [
 		{
 			extends: [
@@ -16,7 +12,6 @@ module.exports = {
 				project: ["./tsconfig.json"],
 			},
 			rules: {
-				"expect-type/expect": "error",
 				// I only disabled these so that we wouldn't see later rules
 				// show up in earlier files... Don't copy these disables! 😉
 				"@typescript-eslint/await-thenable": "off",
@@ -41,12 +36,7 @@ module.exports = {
 		},
 	],
 	parser: "@typescript-eslint/parser",
-	plugins: [
-		"@typescript-eslint",
-		"simple-import-sort",
-		"typescript-sort-keys",
-		"eslint-plugin-expect-type",
-	],
+	plugins: ["@typescript-eslint", "simple-import-sort", "typescript-sort-keys"],
 	root: true,
 	rules: {
 		"no-undef": "off",

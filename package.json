@@ -5,7 +5,7 @@
 		"react": "18.2.0",
 		"react-dom": "18.2.0"
 	},
-	"description": "Template TypeScript Node.js package with all the CI bells & whistles I commonly use. ✨",
+	"description": "Code samples for my talk on linting TypeScript in 2023. ✨",
 	"devDependencies": {
 		"@types/node": "18.11.18",
 		"@types/react": "^18.0.24",
@@ -13,8 +13,6 @@
 		"@typescript-eslint/parser": "^5.38.1",
 		"cspell": "^6.12.0",
 		"eslint": "^8.24.0",
-		"eslint-config-prettier": "^8.5.0",
-		"eslint-plugin-expect-type": "^0.2.0",
 		"eslint-plugin-jsonc": "^2.4.0",
 		"eslint-plugin-simple-import-sort": "^8.0.0",
 		"eslint-plugin-typescript-sort-keys": "^2.1.0",
@@ -34,7 +32,7 @@
 		"*": "prettier --ignore-unknown --write"
 	},
 	"main": "./dist/index.js",
-	"name": "floating-and-sinking-promises",
+	"name": "linting-typescript-in-2023",
 	"scripts": {
 		"build": "next build",
 		"compile": "tsc",
