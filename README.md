@@ -45,9 +45,9 @@ Each does the same thing to an `./example.txt` file:
 Before running any of these three scripts, create an `example.txt` file with any contents.
 The three scripts are:
 
-1. `yarn script:1-callback-hell`: Runs `script/1-callback-hell.ts`, which is implemented using traditional Node-style function callbacks
-2. `yarn script:2-raw-promises`: Runs `script/2-raw-promises.ts`, which is implemented using `Promise`s with `.then()`
-3. `yarn script:3-async-await-promises`: Runs `script/3-async-await-promises.ts`, which is implemented using `async`/`await` over `Promise`s
+1. `yarn script:1-callback-hell`: Runs `script/1-callback-hell.js`, which is implemented using traditional Node-style function callbacks
+2. `yarn script:2-raw-promises`: Runs `script/2-raw-promises.js`, which is implemented using `Promise`s with `.then()`
+3. `yarn script:3-async-await-promises`: Runs `script/3-async-await-promises.js`, which is implemented using `async`/`await` over `Promise`s
 
 ```plaintext
 $ echo hi > example.txt
@@ -61,6 +61,9 @@ Finished writing: HI
 
 ✨  Done in 0.40s.
 ```
+
+Each of those scripts is broken in some nondeterministic way.
+See the `*-fixed.js` version of those scripts for working code equivalents.
 
 ### React Site Demo
 

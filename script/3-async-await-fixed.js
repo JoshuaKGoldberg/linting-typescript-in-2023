@@ -8,7 +8,7 @@ async function capitalizeFile(fileName) {
 
 	// 2. Write uppercased contents to the file
 	const uppercased = contents.toUpperCase();
-	fs.writeFile(fileName, uppercased);
+	await fs.writeFile(fileName, uppercased);
 	console.log("Finished writing:", uppercased);
 }
 

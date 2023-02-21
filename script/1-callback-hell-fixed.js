@@ -1,8 +1,6 @@
 import fs from "node:fs";
 
 function capitalizeFile(fileName, callback) {
-	let contents;
-
 	// 1. Read contents from the file
 	fs.readFile(fileName, (readFileError, data) => {
 		if (readFileError) {
@@ -10,11 +8,9 @@ function capitalizeFile(fileName, callback) {
 			return;
 		}
 
-		contents = data.toString();
+		const contents = data.toString();
 		console.log("Read contents:", contents);
-	});
 
-	setTimeout(() => {
 		const uppercased = contents.toUpperCase();
 
 		// 2. Write uppercased contents to the file
