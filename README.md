@@ -1,8 +1,6 @@
 <h1 align="center">Linting TypeScript in 2023 Code</h1>
 
-<p align="center">Code samples for the talk, formed from my <a href="github.com/JoshuaKGoldberg/template-typescript-node-package">template-typescript-node-package</a>. ✨</p>
-
-<p align="center">👉 <a href="https://1drv.ms/p/s!AvUc1cvPrJnWvtxkNY3xH62eTrZpDQ">Slides available here!</a> 👈</p>
+<p align="center">Demo app for linting React and TypeScript with typescript-eslint, formed from my <a href="github.com/JoshuaKGoldberg/template-typescript-node-package">template-typescript-node-package</a>. ✨</p>
 
 <p align="center">
 	<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
