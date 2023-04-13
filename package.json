@@ -1,6 +1,8 @@
 {
 	"author": "Josh Goldberg <npm@joshuakgoldberg.com>",
 	"dependencies": {
+		"eslint-plugin-react": "^7.32.2",
+		"eslint-plugin-react-hooks": "^4.6.0",
 		"next": "13.0.0",
 		"react": "18.2.0",
 		"react-dom": "18.2.0"

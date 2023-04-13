@@ -1,5 +1,27 @@
+/*
+This ESLint config is a teeny bit more complex than what I show in my talk...
+
+I added two plugins that auto-sort keys in JS/TS files:
+	* eslint-plugin-simple-import-sort
+	* eslint-plugin-typescript-sort-keys
+
+I added eslint-plugin-jsdoc to auto-sort keys in .json files
+
+I use the react/jsx-runtime config instead of react/recommended.
+See https://github.com/jsx-eslint/eslint-plugin-react#configuration-legacy-eslintrc.
+
+I only enabled typescript-eslint's rules in .ts and .tsx files (see the 'overrides') array.
+This way they don't apply to .js files, like this .eslintrc.cjs.
+*/
+
+/* eslint-env commonjs, node */
 module.exports = {
-	extends: ["eslint:recommended", "plugin:typescript-sort-keys/recommended"],
+	extends: [
+		"eslint:recommended",
+		"plugin:typescript-sort-keys/recommended",
+		"plugin:react/jsx-runtime",
+		"plugin:react-hooks/recommended",
+	],
 	overrides: [
 		{
 			extends: [
@@ -27,20 +49,23 @@ module.exports = {
 			},
 			extends: ["plugin:jsonc/recommended-with-json"],
 		},
-		{
-			files: "**/*.test.ts",
-			rules: {
-				"@typescript-eslint/no-unsafe-assignment": "off",
-				"@typescript-eslint/no-unsafe-call": "off",
-			},
-		},
 	],
 	parser: "@typescript-eslint/parser",
-	plugins: ["@typescript-eslint", "simple-import-sort", "typescript-sort-keys"],
+	plugins: [
+		"@typescript-eslint",
+		"react",
+		"react-hooks",
+		"simple-import-sort",
+		"typescript-sort-keys",
+	],
 	root: true,
 	rules: {
-		"no-undef": "off",
 		"simple-import-sort/exports": "error",
 		"simple-import-sort/imports": "error",
+	},
+	settings: {
+		react: {
+			version: "detect",
+		},
 	},
 };
