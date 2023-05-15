@@ -5,10 +5,5 @@
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.formatOnSave": true,
 	"eslint.rules.customizations": [{ "rule": "*", "severity": "warn" }],
-	"typescript.tsdk": "node_modules/typescript/lib",
-	"workbench.colorCustomizations": {
-		"activityBar.background": "#1A3407",
-		"titleBar.activeBackground": "#24490A",
-		"titleBar.activeForeground": "#F5FDEE"
-	}
+	"typescript.tsdk": "node_modules/typescript/lib"
 }
