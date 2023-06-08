@@ -42,7 +42,7 @@ It displays a page with four buttons, each of which is meant to set the page bac
 3. _"Violate no-misused-promises"_: Shows what happens when code violates [`@typescript-eslint/no-misused-promises`](https://typescript-eslint.io/rules/no-misused-promises)
 4. _"This may fail, safely"_: It works, no issues!
 
-Each of those lint rules are disabled in [`.eslintrc.cjs`](./eslintrc.cjs).
+Each of those lint rules are disabled in [`.eslintrc.cjs`](./.eslintrc.cjs).
 Uncomment those disables and run `yarn lint` to enable the rules and see their complaints in source code.
 
 ## Development
