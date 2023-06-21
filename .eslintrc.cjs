@@ -5,7 +5,7 @@ I added two plugins that auto-sort keys in JS/TS files:
 	* eslint-plugin-simple-import-sort
 	* eslint-plugin-typescript-sort-keys
 
-I added eslint-plugin-jsdoc to auto-sort keys in .json files
+I added eslint-plugin-jsonc to auto-sort keys in .json files
 
 I use the react/jsx-runtime config instead of react/recommended.
 See https://github.com/jsx-eslint/eslint-plugin-react#configuration-legacy-eslintrc.
